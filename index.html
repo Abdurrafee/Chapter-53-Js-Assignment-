@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Image Swapping Project</h1>
+
+    <div id="container">
+      <img id="image1" src="img1.png" alt="Image 1" />
+
+      <button onclick="swapPic('image1', 'img2.png')">Change</button>
+
+      <img id="image2" src="img2.png" alt="Image 2" />
+
+      <button onclick="swapPic('image2', 'img3.png')">Change</button>
+
+      <img id="image3" src="img3.png" alt="Image 3" />
+
+      <button onclick="swapPic('image3', 'img1.png')">Change</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
